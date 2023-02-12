@@ -44,7 +44,7 @@ class Perro{
         System.out.println("el perro "+getNombre() +" es de color "+ getColor());
     }
     public void TamanioPerro(){
-        System.out.println("el perro "+ getNombre()+" mide "+getTamanio() +" centimetros");
+        System.out.println("el perro "+ getNombre()+" mide "+getTamanio() +" centimetros de altura");
     }
 
 }
