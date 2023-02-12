@@ -13,5 +13,22 @@ class Perro{
     
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public float getPeso() {
+        return peso;
+    }
+
+    public float getTamanio() {
+        return tamanio;
+    }
+    
+
 }
 
