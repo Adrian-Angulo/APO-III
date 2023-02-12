@@ -7,11 +7,11 @@ public class Main {
         Perro perro = new Perro("Lucas", "Negro", 10, 40);
         //Crea objecto gato
 
-    
+        //funcion menu
         Menu(sc, perro);
         
     }
-
+    //Funcion menuPerro
     public static void MenuPerro(Scanner sc, Perro perro){
         
         System.out.print("""
@@ -44,7 +44,7 @@ public class Main {
                 break;
         }
     }
-
+    //Funcion Menu
     public static void Menu(Scanner sc, Perro perro){
         System.out.println("1. Perro");
         System.out.println("2. Gato");
