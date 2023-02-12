@@ -29,6 +29,23 @@ class Perro{
         return tamanio;
     }
     
+    //metodos
+
+    public void JugarPerro(){
+        System.out.println("el perro "+ getNombre()+" esta jugando");
+    }
+    public void SaltarPerro(){
+        System.out.println("el perro "+getNombre()+" esta saltado");
+    }
+    public void PesoPerro(){
+        System.out.println("El perro pesa "+ getPeso()+" kg");
+    }
+    public void ColorPerro(){
+        System.out.println("el perro "+getNombre() +" es de color "+ getColor());
+    }
+    public void TamanioPerro(){
+        System.out.println("el perro "+ getNombre()+" mide "+getTamanio() +" centimetros");
+    }
 
 }
 
